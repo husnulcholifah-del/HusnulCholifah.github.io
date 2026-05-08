@@ -315,3 +315,30 @@ body {
   border-radius: 12px;
   border: 1px solid #d9c8b5;
 }
+/* Products Grid Uniform */
+.product-card {
+  overflow: hidden;
+}
+
+.product-img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  background-color: #faf7f2;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.product-subtitle {
+  margin-bottom: 8px;
+}
+
+/* Batasi deskripsi agar semua card tinggi sama */
+.product-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.6;
+  min-height: 100px;
+}
