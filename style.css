@@ -128,38 +128,42 @@ body {
   line-height: 1.8;
 }
 
-/* Product Cards */
-.product-img {
-  height: 260px;
-  width: 100%;
-  object-fit: contain; 
-  background-color: #faf7f2;
-  padding: 15px;
-}
-
-.product-card {
-  overflow: hidden;
-}
-
-.card-img-top {
-  border-bottom: 1px solid #eee;
-}
-
+/* Product Cards (Uniform Grid) */
 .product-card {
   background-color: #ffffff;
+  overflow: hidden;
   transition: 0.3s ease;
 }
 
 .product-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0px 10px 25px rgba(0,0,0,0.08);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.product-img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  background-color: #faf7f2;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
 }
 
 .product-card h5 {
   color: #2b2b2b;
 }
 
-.product-card p {
+.product-subtitle {
+  margin-bottom: 8px;
+}
+
+.product-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.6;
+  min-height: 110px;
   font-size: 14px;
   color: #666;
 }
@@ -190,17 +194,7 @@ body {
   letter-spacing: 1px;
 }
 
-.about-text {
-  font-size: 15px;
-  line-height: 1.8;
-}
-
-.about-img {
-  max-height: 600px;
-  object-fit: cover;
-}
-
-/* ABOUT PAGE LUXURY LAYOUT */
+/* About Page */
 .about-section {
   max-width: 1200px;
 }
@@ -299,6 +293,7 @@ body {
   background: linear-gradient(135deg, #fdfaf6, #f5ede4);
   border: 1px solid #e6d8c8;
 }
+
 /* Bag Page */
 .bag-img {
   width: 85px;
@@ -315,30 +310,20 @@ body {
   border-radius: 12px;
   border: 1px solid #d9c8b5;
 }
-/* Products Grid Uniform */
-.product-card {
-  overflow: hidden;
-}
 
-.product-img {
-  width: 100%;
-  height: 250px;
-  object-fit: contain;
-  background-color: #faf7f2;
-  padding: 15px;
-  border-bottom: 1px solid #eee;
-}
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .hero-img {
+    height: auto;
+    object-fit: contain;
+  }
 
-.product-subtitle {
-  margin-bottom: 8px;
-}
+  .sustain-img {
+    height: auto !important;
+    object-fit: contain !important;
+  }
 
-/* Batasi deskripsi agar semua card tinggi sama */
-.product-desc {
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  line-height: 1.6;
-  min-height: 100px;
+  .about-portrait {
+    height: auto;
+  }
 }
