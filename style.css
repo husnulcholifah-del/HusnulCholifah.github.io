@@ -1,0 +1,317 @@
+body {
+  font-family: "Georgia", serif;
+  background-color: #faf7f2;
+  margin: 0;
+  padding: 0;
+  color: #2b2b2b;
+}
+
+/* Topbar */
+.topbar {
+  background-color: #cbb59d;
+  color: white;
+  font-size: 13px;
+  padding: 10px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+/* Navbar */
+.custom-navbar {
+  background-color: #ffffff;
+}
+
+.brand-text {
+  font-size: 22px;
+  letter-spacing: 4px;
+  color: #7a5c47 !important;
+  font-weight: bold;
+}
+
+.custom-navbar .nav-link {
+  font-size: 14px;
+  margin: 0 12px;
+  color: #2b2b2b !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #b08b6e !important;
+  text-decoration: underline;
+}
+
+.nav-icon {
+  font-size: 13px;
+  color: #2b2b2b;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.nav-icon:hover {
+  color: #b08b6e;
+  text-decoration: underline;
+}
+
+/* iframe */
+.content-frame {
+  width: 100%;
+  height: calc(100vh - 110px);
+  border: none;
+  background-color: #faf7f2;
+}
+
+/* Hero */
+.hero-box {
+  background: linear-gradient(135deg, #fdfaf6, #f5ede4);
+  border: 1px solid #e6d8c8;
+}
+
+.hero-title {
+  font-size: 40px;
+  color: #2b2b2b;
+  letter-spacing: 1px;
+}
+
+.hero-desc {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #555;
+}
+
+.hero-img {
+  height: 480px;
+  object-fit: cover;
+  border: 4px solid #f5ede4;
+}
+
+/* Buttons */
+.btn-dark {
+  background-color: #2b2b2b !important;
+  border: none;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.btn-dark:hover {
+  background-color: #7a5c47 !important;
+}
+
+.btn-outline-dark {
+  border: 1px solid #2b2b2b !important;
+  color: #2b2b2b !important;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.btn-outline-dark:hover {
+  background-color: #7a5c47 !important;
+  color: white !important;
+  border: 1px solid #7a5c47 !important;
+}
+
+/* Feature Box */
+.feature-box {
+  background-color: #ffffff;
+  border: 1px solid #e6d8c8;
+}
+
+.feature-box h5 {
+  color: #7a5c47;
+  letter-spacing: 1px;
+}
+
+.feature-box p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* Product Cards */
+.product-img {
+  height: 260px;
+  width: 100%;
+  object-fit: contain; 
+  background-color: #faf7f2;
+  padding: 15px;
+}
+
+.product-card {
+  overflow: hidden;
+}
+
+.card-img-top {
+  border-bottom: 1px solid #eee;
+}
+
+.product-card {
+  background-color: #ffffff;
+  transition: 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.08);
+}
+
+.product-card h5 {
+  color: #2b2b2b;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Contact Form */
+.contact-form {
+  border: 1px solid #e6d8c8;
+  background-color: #ffffff;
+}
+
+.form-control {
+  border-radius: 12px;
+  border: 1px solid #d9c8b5;
+}
+
+.form-control:focus {
+  border-color: #b08b6e;
+  box-shadow: 0 0 0 0.2rem rgba(176, 139, 110, 0.25);
+}
+
+/* Footer */
+.footer-section {
+  background-color: #ffffff;
+  border-top: 1px solid #e6d8c8;
+  font-size: 13px;
+  color: #555;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.about-text {
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.about-img {
+  max-height: 600px;
+  object-fit: cover;
+}
+
+/* ABOUT PAGE LUXURY LAYOUT */
+.about-section {
+  max-width: 1200px;
+}
+
+.about-title {
+  letter-spacing: 1px;
+  font-size: 42px;
+}
+
+.about-subtitle {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.about-line {
+  width: 70px;
+  height: 2px;
+  background-color: #b08b6e;
+}
+
+.about-heading {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.about-text {
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.section-divider {
+  margin: 28px 0;
+  border-top: 1px solid #e6d8c8;
+}
+
+.about-list li {
+  margin-bottom: 10px;
+}
+
+/* Portrait Image Styling */
+.about-image-wrapper {
+  position: sticky;
+  top: 110px;
+}
+
+.about-portrait {
+  width: 100%;
+  height: 820px;
+  object-fit: cover;
+  border-radius: 30px;
+  border: 1px solid #e6d8c8;
+}
+
+/* Sustainability Exclusive Section */
+.sustain-exclusive {
+  background: linear-gradient(135deg, #fdfaf6, #f5ede4);
+  border: 1px solid #e6d8c8;
+}
+
+.sustain-title {
+  font-size: 34px;
+  letter-spacing: 1px;
+  color: #2b2b2b;
+}
+
+.sustain-desc {
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.sustain-divider {
+  border-top: 1px solid #e6d8c8;
+  width: 80%;
+}
+
+.sustain-point h6 {
+  letter-spacing: 0.8px;
+  color: #7a5c47;
+}
+
+.sustain-img {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  border-radius: 30px;
+  border: 1px solid #e6d8c8;
+}
+
+/* Checkout Page */
+.checkout-box {
+  background-color: #ffffff;
+  border: 1px solid #e6d8c8;
+}
+
+.checkout-summary {
+  background: linear-gradient(135deg, #fdfaf6, #f5ede4);
+  border: 1px solid #e6d8c8;
+}
+/* Bag Page */
+.bag-img {
+  width: 85px;
+  height: 85px;
+  object-fit: contain;
+  border: 1px solid #e6d8c8;
+  border-radius: 16px;
+  padding: 8px;
+  background-color: #faf7f2;
+}
+
+.bag-qty {
+  width: 70px;
+  border-radius: 12px;
+  border: 1px solid #d9c8b5;
+}
