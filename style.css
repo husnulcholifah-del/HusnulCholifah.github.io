@@ -327,3 +327,12 @@ body {
     height: auto;
   }
 }
+
+/* Luxury Product Price */
+.product-price {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  color: #7a5c47;
+  margin-bottom: 10px;
+}
